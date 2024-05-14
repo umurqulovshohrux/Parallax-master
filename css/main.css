@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.header-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.header-link {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.header-fantasy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header-cloud{
+    position: absolute;
+}
+
+.cloud1{
+    top: 20%;
+    left: 8%;
+}
+
+.cloud2{
+    top: 20%;
+    left: 40%;
+}
+
+.cloud3{
+    top: 20%;
+    right: 15%;
+}
+
+.header-boat{
+    position: absolute;
+    top: 60%;
+}
+
+body{
+    height: 1500px;
+    overflow-x: hidden;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.header-title{
+    font-size: 100px;
+    font-weight: 700;
+    text-shadow: 0 0 5px #000;
+    color: white;
+    text-transform: capitalize;
+}
+
+/* Main */
+
+.parallax-title {
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.parallax-content {
+    width: 100%;
+    height: 650px;
+    background-image: url(../parallax/Parallax_3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.parallax-ball {
+    position: absolute;
+}
+.ball_1 {
+    width: 400px;
+    top: 4%;
+    left: 10%;
+}
+.ball_2 {
+    top: 10%;
+    right:10%;
+}
+
+/* Main */
+
+/* Timer */
+
+.timer{
+    background: indigo;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.timer-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer-card{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.timer-card__num{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.timer-card__text{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.timer-card__btn{
+    display: block;
+    background: indigo;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Timer */
